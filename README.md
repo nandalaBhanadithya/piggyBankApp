@@ -1,89 +1,70 @@
-# Online Piggy Bank – React Frontend Application
+# Getting Started with Create React App
 
-## Project Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a simple frontend web application that simulates an Online Piggy Bank.  
-Users can add money into the piggy bank, view all deposit transactions, break the piggy bank to withdraw all funds, and start a new piggy bank once the previous one is broken.  
+## Available Scripts
 
-This app is designed as a single page React application with all data mocked and managed on the frontend without any backend.
+In the project directory, you can run:
 
-## Features
+### `npm start`
 
-- Add money to the current piggy bank.
-- View all transactions (with timestamps and amounts).
-- Break the piggy bank to withdraw all saved money.
-- Start a new piggy bank only after the previous one is broken.
-- Only one active piggy bank at a time.
-- Friendly piggy bank icons added for visual cues.
-- Clean component-based UI structure.
-- Styling with CSS Modules.
-  
-## Screenshots
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-<img width="927" height="505" alt="Screenshot 2025-07-26 081348" src="https://github.com/user-attachments/assets/30157475-af2b-4244-913d-5e4bea3668b4" />
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-## Getting Started
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Prerequisites
+### `npm run build`
 
-- [Node.js](https://nodejs.org/) (v12 or above)
-- npm (comes with Node.js) or yarn
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Installation
-   
-1. Clone the repository:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-git clone https://github.com/your-username/piggy-bank-app.git
-cd piggy-bank-app
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-npm install
+### `npm run eject`
 
-3. Start the development server:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-npm start
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-4. Open your browser and visit:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-http://localhost:3000
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-text
+## Learn More
 
-### Usage
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- Use the **input box** to enter an amount to deposit.
-- Click **Add Money** to deposit into the piggy bank.
-- See all deposits listed as transactions with timestamps.
-- Click **Break Piggy Bank** to withdraw all funds and view transaction summary.
-- After breaking, click **Start New Piggy Bank** to begin again.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Project Structure
+### Code Splitting
 
-src/
-components/
-    AddMoneyForm.jsx # Form and button to add money
-    BreakBankDialog.jsx # Dialog showing withdrawn amount and history
-    EmptyState.jsx # Message and button when no active piggy bank
-    PiggyBank.jsx # Main piggy bank view with balance and controls
-    TransactionsList.jsx # Displays list of transactions
-    PiggyBank.module.css # CSS Module for PiggyBank styling
-    App.jsx # Root component managing state and rendering
-index.js # React entry point
-public/
-index.html # HTML template for React app mount
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-text
+### Analyzing the Bundle Size
 
-## Technologies Used
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- React 18 with functional components and hooks
-- CSS Modules for scoped styling
-- react-icons for UI icons
-- JavaScript (ES6+)
+### Making a Progressive Web App
 
-## Notes
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- Data is stored in React component state only; no backend or persistence.
-- No authentication or authorization as per assignment instructions.
-- The app is designed to be simple yet componentized and easily extendable.
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
